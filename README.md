@@ -1,2 +1,2 @@
-> [!WARNING]
+> [!TURTORIAL]
 **```ctrl``` + ```s``` for save**
