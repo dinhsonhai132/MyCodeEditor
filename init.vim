@@ -12,7 +12,7 @@ set expandtab
 set ignorecase
 set smartcase
 
-nnoremap <F5> :w<CR>
+nnoremap <C-S> :w<CR>
 nnoremap <F6> :q!<CR>
 nnoremap <F7> :so %<CR>
 nnoremap <F8> :terminal<CR>
