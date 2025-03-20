@@ -13,9 +13,9 @@ set ignorecase
 set smartcase
 
 nnoremap <C-S> :w<CR>
-nnoremap <F6> :q!<CR>
+nnoremap <C-E> :q!<CR>
 nnoremap <F7> :so %<CR>
-nnoremap <F8> :terminal<CR>
+nnoremap <C-T> :terminal<CR>
 
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
