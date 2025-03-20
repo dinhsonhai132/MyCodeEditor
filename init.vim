@@ -14,7 +14,7 @@ set smartcase
 
 nnoremap <C-S> :w<CR>
 nnoremap <C-E> :q!<CR>
-nnoremap <F7> :so %<CR>
+nnoremap <C-O> :so %<CR>
 nnoremap <C-T> :terminal<CR>
 
 let g:netrw_liststyle = 3
@@ -36,7 +36,7 @@ nnoremap <Leader>e :Vex<CR>
 nnoremap <Leader>v :Ex<CR>
 nnoremap <Tab> <C-w>w
 nnoremap <Leader>t :Tex<CR>
-nnoremap <F7> :Lexplore!<CR>
+nnoremap <C-L> :Lexplore!<CR>
 
 augroup NetrwSetup
   autocmd!
