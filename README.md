@@ -1,2 +1,2 @@
-> [!GUIDE]
+> [!WARNING]
 **```ctrl``` + ```s``` for save**
