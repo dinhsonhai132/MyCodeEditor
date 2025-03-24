@@ -11,7 +11,26 @@ set shiftwidth=4
 set expandtab
 set ignorecase
 set smartcase
+set clipboard=unnamedplus
+set backspace=indent,eol,start
+set whichwrap+=<,>,[,],h,l
 
+nnoremap <C-N> :enew<CR>
+nnoremap <C-Q> :q!<CR>
+nnoremap <C-W> :q<CR>
+vnoremap <C-X> "+x
+vnoremap <C-C> "+y
+nnoremap <C-V> "+p
+inoremap <C-V> <C-R>+
+nnoremap <C-A> ggVG
+vnoremap <C-A> <Esc>ggVG
+nnoremap <C-Z> u
+nnoremap <C-Y> <C-R>
+nnoremap <C-F> /
+nnoremap <C-Left> b
+nnoremap <C-Right> w
+inoremap <C-Left> <C-o>b
+inoremap <C-Right> <C-o>w
 nnoremap <C-S> :w<CR>
 nnoremap <C-E> :q!<CR>
 nnoremap <C-O> :so %<CR>
